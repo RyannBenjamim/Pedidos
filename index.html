@@ -1,0 +1,24 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Sistema de Pedidos</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <section>
+        <div>
+            <form action="https://formsubmit.co/costarryan@gmail.com" method="POST">
+            <p>Cliente:</p>
+            <input type="text" name="Nome do cliente" class="inputs" id="cliente" required placeholder="Cliente">
+            <p>Número da mesa:</p>
+            <input type="number" name="Número da mesa" class="inputs" id="mesaNumero" required placeholder="Número">
+            <p>Pedido:</p>
+            <textarea name="Pedido do cliente" id="caixa" cols="30" rows="7" required placeholder="Escreva aqui o pedido."></textarea>
+            <button type="submit" id="botao" class="inputs" onclick="enviar()">Enviar</button>
+        </div>
+    </section>
+    <script src="script.js"></script>
+</body>
+</html>
